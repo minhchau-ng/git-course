@@ -1,0 +1,2 @@
+git config --user.name "PW - Nguyen Minh Chau"
+git config --user.email "chaunm.nevents@gmail.com"
