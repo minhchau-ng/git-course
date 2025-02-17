@@ -1,0 +1,13 @@
+1
+git init: Khởi tạo 1 thư mục được Git quản lý
+git add <file_name>: Add files từ working directory sang staging area
+git add .: Add tất cả files chưa add từ working directory sang staging area
+git commit -m “message”: commit files trong staging sang repository 
+
+2.
+a. Tạo 3 file: file1, file2, file3: no file in Git
+b. Chạy lệnh: git init: 3 files in working directory
+c. Chạy lệnh: git commit -m”init project”: no file in staging => no commited file 
+d. Chạy lệnh: git add file1: file1 from working directory to staging, file2 and file3 in working directory
+e. Chạy lệnh: git commit -m”add file1”: file1 from staging to repository
+f. Chạy lệnh: git add file: wrong code, no ;file' exist
